@@ -8,16 +8,12 @@ A simple app to demo Linkedin login using LinkedIn OAuth 2.0
 
 ![React Linkedin Login Screenshot](.github/React-Linkedin-Login.png)
 
-## Demo
-
-https://tonyxu-linkedin-react-app.azurewebsites.net/
-
 ## Usage
 
 ### Clone
 
 ```shell
-git clone https://github.com/tonyxu-io/React-Linkedin-Login.git
+git clone https://github.com/datauser-hash/my-app.git
 ```
 
 ### Install Dependencies
@@ -77,19 +73,3 @@ npm run build
 ```shell
 PORT=3001 npm start
 ```
-
-## Consumed SDK/API
-
-- [Linkedin OAuth 2.0 (3-Legged)](https://docs.microsoft.com/en-us/linkedin/shared/authentication/authorization-code-flow?context=linkedin/consumer/context)
-- [Sign In with LinkedIn](https://docs.microsoft.com/en-us/linkedin/consumer/integrations/self-serve/sign-in-with-linkedin?context=linkedin/consumer/context)
-
-## Changelog
-
-- Mar 1, 2020: Migrated hosting platform from GAE to Azure, and CI/CD platform from Travis CI to GitHub Actions
-- Jan 20, 2019: Migrated JS SDK related API usage (due to [deprecation of LinkedIn JS SDK](https://engineering.linkedin.com/blog/2018/12/developer-program-updates)) to REST API
-- Aug 1, 2018: Removed summary check in case user doesn't have summary content
-- April 2, 2018: Created first version using JS SDK to load profile
-
-## Disclaimer
-
-This is not an official sample app or documentation from LinkedIn. Please refer to [LinkedIn API Documentation](https://docs.microsoft.com/en-us/linkedin/) for official documentation and sample apps.
